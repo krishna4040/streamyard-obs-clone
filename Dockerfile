@@ -1,4 +1,4 @@
-FROM ubuntu:local
+FROM ubuntu:focal
 
 RUN /usr/bin/apt-get update && \
     /usr/bin/apt-get install -y curl && \
